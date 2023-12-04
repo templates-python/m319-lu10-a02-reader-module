@@ -1,13 +1,12 @@
-from input_reader import read_float, read_int
-
-def main():
-    # do something
-    float = read_float('Please enter a real number> ')
-    int = read_int('Please enter a whole number> ')
-
-    print(float)
-    print(int)
+def calculate():
+    """
+    calculates the total
+    :return: None
+    """
+    price = 15.75
+    quantity = 3  # TODO change quantity to 5
+    print(f'Total: {price * quantity}')
 
 
 if __name__ == '__main__':
-    main()
+    calculate()
