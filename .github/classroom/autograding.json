@@ -41,16 +41,6 @@
       "points": 1
     },
     {
-      "name": "test_docstring",
-      "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test_docstring\"",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 1
-    },
-    {
       "name": "test_main",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_main\"",
@@ -64,6 +54,26 @@
       "name": "test_main_with_invalid_then_valid_inputs",
       "setup": "sudo -H pip3 install -r requirements.txt",
       "run": "pytest -v  -k \"test_main_with_invalid_then_valid_inputs\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_docstring_contains_param_and_return_read_int",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -v  -k \"test_docstring_contains_param_and_return_read_int\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_docstring_contains_param_and_return_read_float",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -v  -k \"test_docstring_contains_param_and_return_read_float\"",
       "input": "",
       "output": "",
       "comparison": "included",
