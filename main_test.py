@@ -31,7 +31,7 @@ def test_main_with_invalid_then_valid_inputs(monkeypatch, capsys):
     # Erfassen und Überprüfen der Ausgabe
     captured = capsys.readouterr()
     expected_output = ("Please, enter a real number!\n"  # Fehlermeldung von read_float
-                       "Please, enter a valid whole number\n"  # Fehlermeldung von read_int
+                       "Please, enter a valid whole number!\n"  # Fehlermeldung von read_int
                        "3.14\n"  # Korrekte Ausgabe von read_float
                        "42\n")  # Korrekte Ausgabe von read_int
     assert captured.out == expected_output, f"Fehler in der Ausgabe der 'main'-Funktion. Erwartet: {expected_output}, Erhalten: {captured.out}"
