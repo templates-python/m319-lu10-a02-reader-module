@@ -1,12 +1,11 @@
-def calculate():
-    """
-    calculates the total
-    :return: None
-    """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+def main():
+    # do something
+    float = read_float('Please enter a real number> ')
+    int = read_int('Please enter a whole number> ')
+
+    print(float)
+    print(int)
 
 
 if __name__ == '__main__':
-    calculate()
+    main()
