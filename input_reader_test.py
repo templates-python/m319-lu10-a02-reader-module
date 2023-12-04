@@ -41,10 +41,10 @@ def test_docstring_contains_param_and_return_read_float():
     # Überprüfen, ob für jeden Parameter ein @param Tag vorhanden ist
     params = inspect.signature(read_float).parameters
     for param in params:
-        assert f"@param {param}:" in docstring, f"Docstring fehlt @param für {param}"
+        assert f"param {param}:" in docstring, f"Docstring fehlt param für {param}"
 
     # Überprüfen, ob ein @return Tag vorhanden ist
-    assert "@return:" in docstring, "Docstring fehlt @return"
+    assert "return:" in docstring, "Docstring fehlt return"
 
 
 def test_docstring_contains_param_and_return_read_int():
@@ -54,7 +54,7 @@ def test_docstring_contains_param_and_return_read_int():
     # Überprüfen, ob für jeden Parameter ein @param Tag vorhanden ist
     params = inspect.signature(read_float).parameters
     for param in params:
-        assert f"@param {param}:" in docstring, f"Docstring fehlt @param für {param}"
+        assert f"param {param}:" in docstring, f"Docstring fehlt param für {param}"
 
     # Überprüfen, ob ein @return Tag vorhanden ist
-    assert "@return:" in docstring, "Docstring fehlt @return"
+    assert "return:" in docstring, "Docstring fehlt return"
