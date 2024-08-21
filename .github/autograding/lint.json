@@ -1,0 +1,8 @@
+{
+  "files": [
+    "input_reader.py",
+    "main.py"
+  ],
+  "ignore": [],
+  "max": 5
+}
