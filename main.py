@@ -1,10 +1,10 @@
 def main():
     # do something
-    float = read_float('Please enter a real number> ')
-    int = read_int('Please enter a whole number> ')
+    in_float = read_float('Please enter a real number> ')
+    in_int = read_int('Please enter a whole number> ')
 
-    print(float)
-    print(int)
+    print(in_float)
+    print(in_int)
 
 
 if __name__ == '__main__':
