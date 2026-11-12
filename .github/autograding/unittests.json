@@ -24,8 +24,8 @@
     "points": 1
   },
   {
-    "name": "test_main",
-    "function": "test_main",
+    "name": "test_main_valid_inputs",
+    "function": "test_main_valid_inputs",
     "timeout": 10,
     "points": 1
   },
