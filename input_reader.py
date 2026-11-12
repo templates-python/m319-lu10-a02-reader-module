@@ -12,7 +12,7 @@ def read_float(text_to_display):
         try:
             num = float(input(text_to_display))
         except ValueError:
-            print("Please, enter a real number!")
+            print('Please, enter a real number!')
             continue
         else:
             return num
@@ -28,7 +28,7 @@ def read_int(text_to_display):
         try:
             num = int(input(text_to_display))
         except ValueError:
-            print("Please, enter a valid whole number!")
+            print('Please, enter a valid whole number!')
             continue
         else:
             return num
